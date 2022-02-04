@@ -2,14 +2,12 @@
 * {
     box-sizing: border-box;
   }
-  
-  /* Remove margins and padding from the list */
+
   ul {
     margin: 0;
     padding: 0;
   }
   
-  /* Style the list items */
   ul li {
     cursor: pointer;
     position: relative;
@@ -29,8 +27,7 @@
   ul li:nth-child(odd) {
     background: #f9f9f9;
   }
-  
-  /* Darker background-color on hover */
+
   ul li:hover {
     background: #ddd;
   }
@@ -55,8 +52,7 @@
     height: 15px;
     width: 7px;
   }
-  
-  /* Style the close button */
+
   .close {
     position: absolute;
     right: 0;
@@ -72,7 +68,6 @@
     color: white;
   }
   
-  /* Style the header */
   header {
     background-color: #5936f4;
     padding: 30px 40px;
@@ -86,8 +81,7 @@
     display: table;
     clear: both;
   }
-  
-  /* Style the input */
+
   input {
     margin: 0;
     border: none;
@@ -97,8 +91,7 @@
     float: left;
     font-size: 16px;
   }
-  
-  /* Style the "Add" button */
+
   #addBtn {
     padding: 10px;
     width: 25%;
